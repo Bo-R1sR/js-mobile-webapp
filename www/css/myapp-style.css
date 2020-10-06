@@ -1,0 +1,87 @@
+/* TODO: add any application specific styling here */
+#mediaReadview img {
+    width: 100%;
+    max-width: 100%;
+}
+
+#mediaReadview video {
+    width: 100%;
+    max-width: 100%;
+}
+
+footer h1 {
+    display: inline-block;
+    margin: 0px;
+    font-size: 16pt;
+    font-weight: normal;
+    padding-left: 10px;
+    /* using height=line-height for vertically centering single-line text, see http://stackoverflow.com/questions/8865458/how-to-align-text-vertically-center-in-div-with-css */
+    /* TODO: also apply this to other workarounded cases... */
+    height: 40px;
+    line-height: 40px;
+}
+
+.mwf-dialog h3 {
+    font-weight: normal;
+    color: black;
+    font-size: 16pt;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#thumbIMG {
+    margin-left: 12px;
+	max-width: 150px;
+    max-height: 150px;
+    object-fit: cover;
+}
+
+#thumbVID {
+    margin-left: 12px;
+    max-width: calc(100% - 30px);
+    width: calc(100% - 30px);
+    /*max-height: 300px;*/
+    object-fit: cover;
+
+}
+
+#itemDescpritionDetailView {
+    margin: 6px;
+    font-size: 11pt;
+}
+
+.videoPreview {
+    display:flex;
+    flex-direction: column;
+    width: 50px;
+    max-height: 50px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.videoPreview video {
+    max-width:50px;
+    width: 50px;
+    height: 30px;
+    max-height: 30px;
+    object-fit: cover;
+}
+
+.videoPreview .mwf-img-play-button {
+    opacity: 1;
+    background-size: 15px 15px;
+    width: 15px;
+    height: 15px;
+}
+
+li img {
+    object-fit: cover;
+}
+
+#switchCRUD {
+    opacity: 0.0;
+}
